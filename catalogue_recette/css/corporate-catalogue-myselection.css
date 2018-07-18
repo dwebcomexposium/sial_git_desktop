@@ -1,0 +1,311 @@
+/*
+
+		== Corporate / Catalogue
+		== 3 components: My selection and History / Vus récemment (sidebar) and Recently seen (bottom of content)
+		.myselection --> .mysel-###
+		.history --> .hist-###
+		.recently
+
+*/
+/*
+ * ==My selection (in sidebar: foldable, redish background, lists of EPM)
+ */
+.myselection,
+.history {
+  padding: 0 1rem 1rem;
+  color: #ffffff;
+}
+.myselection {
+  background-color: #910f4f;
+}
+.history {
+  margin-bottom: 2em;
+  background-color: #0c8192;
+}
+.myselection:not(.is-open) .mysel-close-btn,
+.history:not(.is-open) .mysel-close-btn,
+.myselection:not(.is-open) .hist-close-btn,
+.history:not(.is-open) .hist-close-btn {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.myselection:not(.is-open) > .mysel-container,
+.history:not(.is-open) > .mysel-container,
+.myselection:not(.is-open) > .hist-container,
+.history:not(.is-open) > .hist-container {
+  display: none;
+}
+.mysel-title,
+.hist-title {
+  position: relative;
+  margin-bottom: 0;
+  padding: .8rem 0 0 3.5rem;
+  border-bottom: 0;
+  color: inherit;
+}
+.mysel-title .icon-catal-star-full,
+.hist-title .icon-catal-clock {
+  position: absolute;
+  top: 1rem;
+  left: 0rem;
+  font-size: 2.3rem;
+}
+.mysel-title .mysel-close-btn,
+.hist-title .hist-close-btn {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform .3s ease;
+          transition: transform .3s ease;
+}
+.myselection .qty-round,
+.history .qty-round {
+  position: absolute;
+  top: .7rem;
+  left: 1.3rem;
+  background-color: #ffffff;
+  box-sizing: content-box;
+  border: 1px solid;
+}
+.myselection .qty-round {
+  color: #910f4f;
+}
+.history .qty-round {
+  color: #0c8192;
+}
+.mysel-container,
+.hist-container {
+  margin-top: 0.8em;
+  border-top: 4px solid #ffffff;
+}
+.mysel-type,
+.hist-type {
+  position: relative;
+  padding: 0.5rem 0 0 2.2rem;
+}
+.mysel-type .qty-round-small,
+.hist-type .qty-round-small {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+.hist-type {
+  padding-left: 0;
+}
+.mysel-type-title,
+.mysel-item-link,
+.mysel-item-remove .hist-type-title,
+.hist-item-link,
+.hist-item-remove {
+  text-decoration: none;
+  color: inherit;
+}
+.mysel-type-title:focus,
+.mysel-item-link:focus,
+.hist-type-title:focus,
+.hist-item-link:focus,
+.mysel-type-title:hover,
+.mysel-item-link:hover,
+.hist-type-title:hover,
+.hist-item-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.mysel-type-title,
+.hist-type-title {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.mysel-type-title:hover,
+.hist-type-title:hover {
+  text-decoration: underline;
+}
+.mysel-item,
+.hist-item {
+  display: block;
+  position: relative;
+  padding: .8rem 3rem .8rem 0;
+  width: 100%;
+}
+.mysel-item:not(:last-child),
+.hist-item:not(:last-child),
+.mysel-item:first-child,
+.hist-item:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.myselection .mysel-item {
+  display: none;
+}
+.myselection .mysel-item.js-visible {
+  display: block;
+}
+.myselection .mysel-item.js-visible.js-no-border {
+  border: none;
+}
+.mysel-item-link,
+.hist-item-link {
+  width: 100%;
+}
+.mysel-item-txt,
+.hist-item-txt {
+  padding-right: 3em;
+  font-size: 1.2rem;
+}
+.mysel-item-remove,
+.hist-item-remove {
+  position: absolute;
+  top: 1.2rem;
+  right: .8rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.mysel-item-remove:hover,
+.hist-item-remove:hover {
+  color: #51082c;
+}
+.mysel-footer,
+.hist-footer {
+  padding-top: 2rem;
+  text-align: center;
+}
+.mysel-footer .btn-primary,
+.hist-footer .btn-primary,
+.mysel-footer .btn-invert,
+.hist-footer .btn-invert {
+  display: inline-block;
+  margin: 0 auto 1rem;
+  padding: .4em 1em;
+  width: auto;
+  background-color: #51082c;
+  border-bottom-color: #51082c;
+  font-size: 1.4rem;
+  text-transform: none;
+}
+.mysel-footer .btn-primary:hover,
+.hist-footer .btn-primary:hover,
+.mysel-footer .btn-invert:hover,
+.hist-footer .btn-invert:hover {
+  background: #ffffff;
+  color: #51082c;
+  border-bottom-color: #ffffff;
+}
+.mysel-footer .btn-primary .icon-catal,
+.hist-footer .btn-primary .icon-catal,
+.mysel-footer .btn-invert .icon-catal,
+.hist-footer .btn-invert .icon-catal {
+  margin: 0 0 0 .5rem;
+  font-size: 1.3rem;
+  vertical-align: -0.2rem;
+}
+.hist-footer {
+  padding-top: 1rem;
+}
+.hist-footer .btn-invert {
+  background: #f6f9f9;
+  border-bottom-color: #f6f9f9;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.hist-footer .btn-invert:hover {
+  background: #00525e;
+  border-bottom-color: #00525e;
+  color: #ffffff;
+}
+.hist-footer .btn-invert:hover .icon-catal {
+  color: #ffffff;
+}
+.hist-footer .btn-invert .icon-catal {
+  color: #909b9d;
+  font-size: 1.1rem;
+  vertical-align: -0.2rem;
+  -webkit-transition: color 0.2s ease-in-out;
+          transition: color 0.2s ease-in-out;
+}
+.mysel-cata-title-container {
+  position: relative;
+}
+.mysel-cata-title-container .btn-primary {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.mysel-cata-title-container .btn-primary .icon-catal {
+  margin-left: 1em;
+  margin-right: 0;
+}
+.mysel-cata-title {
+  position: relative;
+}
+.mysel-cata-title .icon-catal {
+  display: inline-block;
+  padding: 0 1.5rem 0 1rem;
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+}
+.mysel-cata-title .qty-round {
+  position: absolute;
+  top: .2rem;
+  left: 2.5rem;
+  background: #00525e;
+  border: 1px solid #ffffff;
+  line-height: 2.3rem;
+}
+.mysel-cata-title .qty-round-nb {
+  font-size: 1.4rem;
+}
+.recently {
+  position: relative;
+}
+.recently .catal-other-ex .catal-other-ex-item {
+  width: 100%;
+}
+.recently .catal-other-ex .catal-other-ex-link {
+  width: auto;
+}
+.recently .slider-item {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  margin-right: .6rem;
+  width: calc(20% - .5rem);
+  border-bottom: 0;
+}
+.recently .catal-other-ex-cat {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .3rem .8rem .4rem;
+  background: #0c8192;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.recently .slider-pagin {
+  margin-top: 0;
+}
+.recently .hist-footer {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+.recently-title {
+  border-bottom: 1px solid #e3e9ea;
+  color: #00525e;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+.recently-title .qty-round {
+  background: #00525e;
+}
+.history .js-toggle-trigger,
+.myselection .js-toggle-trigger {
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+/*
+	
+	== Corporate 
+	== Second navigation
+	.second-navigation --> .sn-###
+
+*/
+.sn-list {
+  padding-left: 0;
+  margin-top: 0;
+}
+.sn-item {
+  border-bottom: 1px solid #e3e9ea;
+}
+.sn-item-link {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #2b2f2f;
+}
+.sn-item-link:focus,
+.sn-item-link:hover {
+  background: #0c8192;
+  color: #ffffff;
+}
+.sn-item-link:focus .icon,
+.sn-item-link:hover .icon {
+  color: #ffffff;
+}
+.sn-item-link.is-active {
+  background: #0c8192;
+  color: #ffffff;
+}
+.sn-item-link.is-active .icon {
+  display: none;
+}
+.sn-item-link .icon {
+  float: right;
+  margin-top: 0.5em;
+  font-size: 1.1rem;
+  color: #0c8192;
+}

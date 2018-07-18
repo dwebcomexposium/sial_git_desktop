@@ -1,0 +1,143 @@
+/*
+
+		== Corporate / Catalogue
+		== Other exhibitors (found after details of an exhibitor)
+		.catal-other-ex --> ¤
+
+*/
+/*
+ * == Other exhibitors
+ */
+.catal-other-ex .catal-other-ex-list,
+.catal-other-prd .catal-other-ex-list,
+.catal-other-ex .catal-other-prd-list,
+.catal-other-prd .catal-other-prd-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+.catal-other-ex .catal-other-ex-item,
+.catal-other-prd .catal-other-ex-item,
+.catal-other-ex .catal-other-prd-item,
+.catal-other-prd .catal-other-prd-item {
+  position: relative;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  width: calc(20% - 5px);
+  list-style-type: none;
+  border: 3px solid #e3e9ea;
+  margin: 0 0 1em 6px;
+}
+.catal-other-ex .catal-other-ex-item:first-child,
+.catal-other-prd .catal-other-ex-item:first-child,
+.catal-other-ex .catal-other-prd-item:first-child,
+.catal-other-prd .catal-other-prd-item:first-child {
+  margin-left: 0;
+}
+.catal-other-ex .catal-other-ex-link,
+.catal-other-prd .catal-other-ex-link,
+.catal-other-ex .catal-other-prd-link,
+.catal-other-prd .catal-other-prd-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #474d4e;
+}
+.catal-other-ex .catal-other-ex-media,
+.catal-other-prd .catal-other-ex-media,
+.catal-other-ex .catal-other-prd-media,
+.catal-other-prd .catal-other-prd-media {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  min-height: 12rem;
+}
+.catal-other-ex .catal-other-ex-img,
+.catal-other-prd .catal-other-ex-img,
+.catal-other-ex .catal-other-prd-img,
+.catal-other-prd .catal-other-prd-img {
+  display: block;
+  vertical-align: middle;
+}
+.catal-other-ex .catal-other-ex-txt,
+.catal-other-prd .catal-other-ex-txt,
+.catal-other-ex .catal-other-prd-txt,
+.catal-other-prd .catal-other-prd-txt {
+  margin-bottom: auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.catal-other-ex .catal-other-ex-actions,
+.catal-other-prd .catal-other-ex-actions,
+.catal-other-ex .catal-other-prd-actions,
+.catal-other-prd .catal-other-prd-actions {
+  display: none;
+  text-align: center;
+}
+.catal-other-ex .btn-primary,
+.catal-other-prd .btn-primary {
+  font-size: 1.2rem;
+}
+.catal-other-ex .catal-other-ex-link:focus + .catal-other-ex-actions,
+.catal-other-prd .catal-other-ex-link:focus + .catal-other-ex-actions,
+.catal-other-ex .catal-other-ex-link:active + .catal-other-ex-actions,
+.catal-other-prd .catal-other-ex-link:active + .catal-other-ex-actions,
+.catal-other-ex .catal-other-ex-link:hover + .catal-other-ex-actions,
+.catal-other-prd .catal-other-ex-link:hover + .catal-other-ex-actions,
+.catal-other-ex .catal-other-ex-actions:focus,
+.catal-other-prd .catal-other-ex-actions:focus,
+.catal-other-ex .catal-other-ex-actions:hover,
+.catal-other-prd .catal-other-ex-actions:hover,
+.catal-other-ex .catal-other-prd-link:focus + .catal-other-prd-actions,
+.catal-other-prd .catal-other-prd-link:focus + .catal-other-prd-actions,
+.catal-other-ex .catal-other-prd-link:active + .catal-other-prd-actions,
+.catal-other-prd .catal-other-prd-link:active + .catal-other-prd-actions,
+.catal-other-ex .catal-other-prd-link:hover + .catal-other-prd-actions,
+.catal-other-prd .catal-other-prd-link:hover + .catal-other-prd-actions,
+.catal-other-ex .catal-other-prd-actions:focus,
+.catal-other-prd .catal-other-prd-actions:focus,
+.catal-other-ex .catal-other-prd-actions:hover,
+.catal-other-prd .catal-other-prd-actions:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 100%;
+  margin-top: -1.6rem;
+  margin-left: -50%;
+}

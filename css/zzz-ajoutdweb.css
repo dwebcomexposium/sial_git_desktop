@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+.article-intro h5, .article-content h5 {
+    clear: both;
+}
+
+/* Ajustements CSS moetur de recherche global */
+.global-search-form .tt-dropdown-menu {
+    width: auto;
+ }
+ 
+.global-search-form .tt-suggest-text{color:#777}
+
+.global-search-form .tt-highlight {color:#ff8000}
+
+
+/* Ajout Alsa demande de badge - 19/04/2018 */
+
+  /* Block visitor general styles */
+  [id="zone3"] > .block-link,
+  .main-navigation .block-link {
+    color: #fff;
+    background-color: #ff8200;
+    transition: background-color .25s;
+    padding: 1em;
+  }
+
+  .block-link {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .block-link:hover,
+  .block-link:active,
+  .block-link:focus {
+    background-color: #d46d02;
+  }
+
+  .block-link .block-title {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+
+  .block-link .main-title-with-link {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  /* Main menu block visitor badge */
+  .alsa {
+    padding: 0 5rem;
+    clear: both;
+  }
+
+  .alsa .visitor-badge,
+  .main-navigation .visitor-badge {
+    color: #fff;
+    background-color: #ff8200;
+    transition: background-color .25s;
+    padding: 1em;
+    margin-left: auto;
+
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    max-width: 230px;
+  }
+
+  .alsa .mn-link.visitor-badge,
+  .nav-off-canvas .mn-item-lvl-1 > .mn-link.visitor-badge {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+
+  .alsa .visitor-badge::before,
+  .main-navigation .visitor-badge::before {
+    content: "\e900";
+    float: left;
+    margin: 0 .50em 0 .3em;
+    font-family: icon;
+    font-size: 4rem;
+  }
+
+  .alsa .visitor-badge:hover,
+  .alsa .visitor-badge:active,
+  .alsa .visitor-badge:focus,
+  .main-navigation .visitor-badge:hover,
+  .main-navigation .visitor-badge:active,
+  .main-navigation .visitor-badge:focus {
+    background-color: #d46d02;
+  }
+
+  /* Block visitor badge right column  */
+  .block-small.visitor-badge .block-title::before {
+    content: "\e900";
+    float: left;
+    margin: 0 .50em .1em .3em;
+    font-family: icon;
+    font-size: 4rem;
+  }
+
+  /* mobile version */
+  .body-mobile.front .visitor-badge {
+    margin: 1rem;
+  }
+
+  /* Sticky block on the right */
+  .sticky-link {
+    display: none;
+  }
+
+  @media screen and (min-width:1280px) {
+
+    .sticky-link {
+      text-decoration: none;
+      text-align: center;
+      color: #fff !important;
+      padding: 1rem;
+      background-color: #ff8200;
+      transition: background-color .25s;
+      font-size: 1.5rem;
+      position: fixed;
+      right: 0;
+      top: calc(50% - 70px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 80px;
+      height: 140px;
+    }
+    .sticky-link .icon {
+      font-size: 5rem;
+    }
+
+    .sticky-link .block-title {
+      margin-top: 1rem;
+      font-family: Futura,Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      line-height: 1.25;
+      font-weight: normal;
+    }
+
+    .sticky-link:hover,
+    .sticky-link:active,
+    .sticky-link:focus {
+      background-color: #d46d02;
+      color: #fff;
+    }
+  }
+
+  @media screen and (min-width:1440px) {
+
+    .sticky-link {
+      width: 130px;
+    }
+  }
+
+/* Fin Ajout Alsa demande de badge - 19/04/2018 */
+
+.linkid395271{float:right;}
+

@@ -1,0 +1,73 @@
+/*
+
+		== Corporate / Catalogue
+		== Affix menu
+		.catal-nav-affix --> ¤
+*/
+/*
+ * == Fixed navigation once user has scrolled down to its original position (we named it "affix" like Bootstrap does)
+ * Provided script adds and removes a class .current on item corresponding to which section user has scrolled, it's already styled in LESS/CSS below (same style as :focus/:hover)
+ */
+.catal-nav-affix {
+  border: 4px solid #e3e9ea;
+  background-color: #f6f9f9;
+}
+.catal-nav-affix .catal-nav-affix-list {
+  padding: 1.8rem 0;
+}
+.catal-nav-affix .catal-nav-affix-item {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link {
+  color: #0c8192;
+}
+.catal-nav-affix .catal-nav-affix-link {
+  position: relative;
+  display: block;
+  padding: 0.5em 2.2rem 0.5em 2rem;
+  text-decoration: none;
+  color: #474d4e;
+}
+.catal-nav-affix .catal-nav-affix-link:focus,
+.catal-nav-affix .catal-nav-affix-link:hover,
+.catal-nav-affix .current .catal-nav-affix-link,
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link {
+  color: #0c8192;
+}
+.catal-nav-affix .catal-nav-affix-link:focus .qty-round,
+.catal-nav-affix .catal-nav-affix-link:hover .qty-round,
+.catal-nav-affix .current .catal-nav-affix-link .qty-round,
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link .qty-round {
+  background-color: #0c8192;
+}
+.catal-nav-affix .catal-nav-affix-link:focus:before,
+.catal-nav-affix .catal-nav-affix-link:hover:before,
+.catal-nav-affix .current .catal-nav-affix-link:before,
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before,
+.catal-nav-affix .catal-nav-affix-link:focus:after,
+.catal-nav-affix .catal-nav-affix-link:hover:after,
+.catal-nav-affix .current .catal-nav-affix-link:after,
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: block;
+  border: 13px solid transparent;
+  margin-top: -13px;
+}
+.catal-nav-affix .catal-nav-affix-link:focus:before,
+.catal-nav-affix .catal-nav-affix-link:hover:before,
+.catal-nav-affix .current .catal-nav-affix-link:before,
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before {
+  left: 0;
+  border-left-color: #e3e9ea;
+}
+.catal-nav-affix .catal-nav-affix-link:focus:after,
+.catal-nav-affix .catal-nav-affix-link:hover:after,
+.catal-nav-affix .current .catal-nav-affix-link:after,
+.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after {
+  right: 0;
+  border-right-color: #e3e9ea;
+}

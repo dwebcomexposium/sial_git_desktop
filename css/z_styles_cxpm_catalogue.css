@@ -1,0 +1,440 @@
+/* surcharge comexposium CSS catalogue */
+
+body.catalogue { background-color: white; }
+
+.mod-catal a { color: #090909; }
+.mod-catal a:hover, .mod-catal a:focus, .mod-catal a:active { color: #ff8200; }
+
+
+/* ma selection */
+.mod-catal.myselection {
+    background-color: #f6f9f9;
+    margin-bottom: 20px;
+}
+.mod-catal.myselection .qty-round, .mod-catal.history .qty-round {
+    background-color: #fde626;
+    border: 1px solid white;
+    color: #090909;
+}
+.mod-catal .mysel-container, .mod-catal .hist-container {
+    border-top: 0px solid #ffffff;
+}
+.mod-catal.myselection, .mod-catal.history {
+    color: #090909;
+}
+.mod-catal .mysel-title .mysel-close-btn, .mod-catal .hist-title .hist-close-btn {
+    color: #090909;
+}
+.mod-catal .mysel-type-title, .mod-catal .hist-type-title {
+    color: #090909;
+}
+.mod-catal .mysel-type-title:hover, .mod-catal .hist-type-title:hover {
+    color: #ff8200;
+}
+
+.mod-catal .mysel-footer .btn-primary, .mod-catal .hist-footer .btn-primary, .mod-catal .mysel-footer .btn-invert, .mod-catal .hist-footer .btn-invert {
+    background-color: #fde626;
+color: #090909;
+}
+
+.mod-catal .mysel-footer .btn-primary:hover, .mod-catal .hist-footer .btn-primary:hover, .mod-catal .mysel-footer .btn-invert:hover, .mod-catal .hist-footer .btn-invert:hover {
+    background: #fde626;
+    color: #090909;
+    border-bottom-color: transparent;
+}
+
+.mod-catal .block-title {
+    border-bottom: 4px solid #fde626;
+}
+.block-small .block-title::after { display: none; }
+
+.mod-catal .mysel-item-remove, .mod-catal .hist-item-remove {
+    color: #090909;
+    font-size: 1.5em;
+}
+.mod-catal .mysel-item-remove:hover, .mod-catal .hist-item-remove:hover {
+    color: #ff8200;
+}
+
+
+/* liste de resultats */
+
+
+.main-search { background-color: transparent; }
+
+.mod-catal h1 { color: #090909; }
+
+
+.mod-catal .esf-search-line #esf-btn-search {
+    width: 24%;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.25;
+    background: none;
+    border-radius: 0 !important;
+    border: 0;
+    padding: 0.65em 1em;
+    text-align: center;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #010101;
+    background-color: #fde626;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+.mod-catal .esf-search-line #esf-btn-search:hover {
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    background-color: #fde626;
+}
+
+
+.mod-catal .esf-as-header {
+    color: #090909;
+    background-color: #fde626;
+}
+
+.mod-catal .esf-as-header::after, .mod-catal .esf-as-header::before {
+    background: #090909;
+}
+
+
+.mod-catal .esf-as-list-filters .current a { background-color: #fde626; color: #090909; }
+
+.mod-catal .esf-as-list-filters a:hover {
+    background: #ff8200;
+    color: white !important;
+}
+.mod-catal .esf-as-list-filters a:focus {
+    background: #fde626;
+    color: #090909 §IMPORTANT;
+}
+
+.mod-catal.exhibitor-search-form a { color: #090909; }
+
+.mod-catal.exhibitor-search-form a:hover, .mod-catal.exhibitor-search-form a:focus {
+    color: #ff8200;
+}
+
+
+
+.mod-catal .esf-tree li:hover {
+    background: transparent;
+}
+
+.mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl::after {
+    color: #090909;
+}
+
+.mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl:hover::after {
+    background: #ff8200;
+    color: #fff;
+}
+
+.mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl .icon-catal-arrow-left::before {
+    color: #090909;
+}
+
+.mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl:hover .icon-catal-arrow-left {
+    background: #ff8200;
+    color: white;
+}
+
+.catalogue .shape:nth-child(1) {
+    background: #fde626;
+}
+
+.catalogue .shape:nth-child(2) {
+    background: #cdb80d;
+}
+
+.catalogue .shape:nth-child(3) {
+    background: #090909;
+}
+
+
+.mod-catal .esf-as-af-filters > span { color: #ff8200; }
+.mod-catal .esf-as-heading .esf-remove-filters { color: #ff8200; }
+.mod-catal .esf-as-af-filters .icon-catal-cross { color: #ff8200; }
+
+
+.mod-catal .esf-results-zone .esf-results-alpha-filter a { color: #000; }
+
+.mod-catal .esf-results-zone .esf-results-alpha-list .current { background-color: #ff8200; }
+
+.mod-catal .catal-results-title {
+    border-bottom: 0.4rem solid #fde626;
+}
+
+
+.mod-catal .catal-ex-item-stand-item .icon-catal { color: #090909;  }
+
+.mod-catal .btn-primary {
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.25;
+    background: none;
+    border-radius: 0 !important;
+    border: 0;
+    padding: 0.65em 1em;
+    text-align: center;
+    font-family: Futura,Helvetica,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #010101;
+    background-color: #fde626;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    -webkit-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+.mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active {
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    background-color: #fde626;
+    color: #010101;
+}
+
+
+.mod-catal .catal-ex-item-title a { color: #090909;  }
+
+
+.catalogue #main .catal-ex-item.is-premium .catal-ex-item-title, .catalogue #main .catal-ex-item.is-premium .catal-ex-item-title a { color: red !important; }
+
+.catalogue .catal-ex-notif-container { color: #ff8200; }
+
+.mod-catal .catal-ex-item-title a:hover {
+    color: #ff8200;
+    text-decoration: underline;
+}
+
+.mod-catal .esf-results-zone .esf-results-alpha-filter a:hover, .mod-catal .esf-results-zone .esf-results-alpha-filter a:focus {
+    color: #ff8200;
+}
+
+
+.mod-catal.exhibitor-search-form .tt-dropdown-menu {
+    width: 330px;
+    padding: 0.5em;
+    margin-left: 0;
+    margin-top: .5rem;
+    border: 1px solid #e3e9ea;
+    color: #2b2f2f;
+    position: absolute;
+    right: auto;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    background: #FFF;
+    box-shadow: 0 0 3px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.mod-catal.exhibitor-search-form .tt-dropdown-menu::before {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    left: 40px;
+    top: -10px;
+    border-bottom: 10px solid #FFF;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.mod-catal.exhibitor-search-form [class*="tt-dataset"] {
+    display: block;
+    vertical-align: initial;
+    width: 100%;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion {
+    font-size: 1em;
+}
+
+
+.mod-catal.exhibitor-search-form .tt-suggestion::before {
+    display: none;
+}
+
+.mod-catal.exhibitor-search-form .tt-highlight { color: #ff8200; }
+
+.mod-catal.exhibitor-search-form .tt-suggestion a:focus, .mod-catal.exhibitor-search-form .tt-suggestion a:hover {
+    color: #ff8200;
+}
+
+.mod-catal .catal-ex-item-cat-link { color: #090909; }
+
+.mod-catal .catal-ex-item-cat-link:hover {
+    color: #ff8200;
+}
+
+.mod-catal .catal-ex-item-cat-link img { display: none; }
+
+
+
+
+/* fiche exposant */
+.mod-catal.catal-nav-ex .catal-nav-ex-more-link { color: #090909; }
+
+.mod-catal.catal-nav-ex .catal-nav-ex-sep {
+    border-left: 5px solid #090909;
+}
+.mod-catal.catal-nav-ex .catal-nav-ex-link .icon-catal {
+    color: #090909;
+}
+
+.mod-catal.catal-nav-ex .catal-nav-ex-more-link .icon-catal { color: #090909; }
+
+
+.mod-catal .catal-ed-main .catal-ed-main-stand-ref .icon-catal { color: #090909; }
+
+.mod-catal .catal-ed-group {
+    border-top: 4px solid #fde626;
+}
+
+.mod-catal .catal-ed-main-title {
+    color: #090909;
+}
+
+.mod-catal .catal-ed-main .catal-ed-main-stand-title { color:  #090909; }
+
+.mod-catal h2, .mod-catal .h2-like { color: #090909; }
+.mod-catal h3, .mod-catal .h3-like { color: #090909; }
+
+.mod-catal .catal-ed-activity .catal-ed-activity-group { clear: both; }
+
+.mod-catal .catal-ed-activity .catal-ed-activity-title { width: 29%; }
+
+.mod-catal .catal-ed-partners .catal-ed-partners-txt { color: #090909; }
+
+.mod-catal .catal-ed-activity .catal-ed-activity-link { color: #090909; }
+
+.mod-catal .catal-ed-activity .catal-ed-activity-link:focus, .mod-catal .catal-ed-activity .catal-ed-activity-link:active, .mod-catal .catal-ed-activity .catal-ed-activity-link:hover {
+    color: #ff8200;
+    background-color: #e3e9ea;
+}
+
+.mod-catal.catal-nav-affix .catal-nav-affix-link { color: #090909; }
+
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus, .mod-catal.catal-nav-affix .catal-nav-affix-link:hover, .mod-catal.catal-nav-affix .current .catal-nav-affix-link, .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link {
+    color: #ff8200;
+}
+
+.mod-catal .catal-ed-main-title .qty-round-big {
+    background-color: #fde626;
+}
+
+.mod-catal .qty-round { color: #090909; background: #fde626; }
+
+.mod-catal .catal-ed-products .catal-edp-cat-item .icon-catal { color: #090909; } 
+.mod-catal .catal-ed-products .catal-edp-stand-item .icon-catal { color: #090909; } 
+.mod-catal .catal-ex-item-exhibitor-item .icon-catal { color: #090909; } 
+
+.mod-catal .catal-ex-item-exhibitor-item a { color: #090909; } 
+
+.mod-catal .catal-ex-item-exhibitor-item a:hover {
+    color: #ff8200;
+}
+
+
+.pagin-item.pagin-prev a:focus, .pagin-item.pagin-next a:focus, .pagin-item.pagin-prev a:hover, .pagin-item.pagin-next a:hover, .pagin-item.pagin-prev a:active, .pagin-item.pagin-next a:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    color: #090909;
+}
+
+.mod-catal .catal-ed-main .catal-ed-main-desc-title { color: #090909; } 
+
+.mod-catal .catal-ed-brands .catal-ed-brands-link:focus, .mod-catal .catal-ed-brands .catal-ed-brands-link:active, .mod-catal .catal-ed-brands .catal-ed-brands-link:hover {
+    color: #ff8200;
+    text-decoration: none;
+}
+
+.mod-catal .catal-ex-item-stand-link { color: #090909; } 
+.mod-catal .catal-ex-item-stand-link:hover {
+    color: #ff8200;
+}
+
+.mod-catal .catal-ed-main .catal-ed-main-cat-link { color: #090909; }
+
+.mod-catal .catal-ed-main .catal-ed-main-cat-link img { display: none; }
+
+.mod-catal .catal-ed-agents .catal-ed-agents-title-link { color: #090909; }
+
+.mod-catal .catal-ed-agents .catal-ed-agents-item::after { border: 2px solid #090909; }
+
+.mod-catal .link-view-all .icon, .mod-catal .link-view-all .icon-catal {
+    color: #090909;
+}
+
+.mod-catal .link-view-all:focus, .mod-catal .link-view-all:hover {
+    color: #ff8200;
+}
+
+
+
+/* ma selection */ 
+.mod-catal .mysel-cata-title .qty-round {
+    background: #fde626;
+}
+
+.mod-catal .catal-ed-main-title .qty-round-big {
+    background-color: #fde626;
+}
+
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus .qty-round, .mod-catal.catal-nav-affix .catal-nav-affix-link:hover .qty-round, .mod-catal.catal-nav-affix .current .catal-nav-affix-link .qty-round, .mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link .qty-round {
+    background-color: #fde626;
+}
+
+.catal-results-display { display: none !important; }
+
+
+
+/* liste des produits */
+.mod-catal .catal-ex-item-cat-iconitem .icon-catal {
+    color: #090909;
+}
+
+.mod-catal .catal-prd-main-title {
+    color: #090909;
+}
+.mod-catal .catal-prd-group {
+    border-top: 4px solid #fde626;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-type-list .catal-prd-infos-item .icon-catal {
+    color: #090909;
+}
+
+.mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:focus, .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:active, .mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:hover {
+    color: #ff8200;
+}
+
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span { color: #090909; font-weight: normal; }
+
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view .icon-catal {
+    color: #fde626;
+}
+
+
+
+/* liste des marques */
+
+.mod-catal .catal-ed-activity .catal-ed-activity-item-view-all .catal-ed-activity-link {
+    color: #090909;
+}
+
+
+
+/* 
+noir : 090909
+orange : ff8200
+jaune : fde626
+*/
+
+/*Cacher le bloc partenaire de la liste des exposants*/
+
+.body-corpo.catalogue.exposant.fiche.body-corpo.page-details.exhibitor-details #partenaires{display:none}
