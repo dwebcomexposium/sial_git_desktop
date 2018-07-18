@@ -10902,7 +10902,7 @@ body:not(.front) .block-search .inner::before {
 * FAQ content
 */
 .item-is-open .fc-item-wrap {
-  background: url(../../theme/sial_desktop/img/visual/faq-picto-large.png) no-repeat right bottom;
+  background: url(../../theme/sial_git_desktop/img/visual/faq-picto-large.png) no-repeat right bottom;
   border-left: 2px solid #fde626;
 }
 .fc-item-wrap {

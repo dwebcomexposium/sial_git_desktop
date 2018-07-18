@@ -326,7 +326,7 @@ body.landing-page,
 }
 body.landing-page {
 	background-color: #fde626;
-	background-image: url("/theme/sial_desktop/img/landing/minion.jpg");
+	background-image: url("/theme/sial_git_desktop/img/landing/minion.jpg");
 	background-attachment: fixed;
 }
 .landing-page .is-stuck {
@@ -483,55 +483,55 @@ body.landing-page {
 	.lemon-1 {
 		top: 0;
 		height: 171px;
-		background-image: url("/theme/sial_desktop/img/landing/lemon-1.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/lemon-1.png");
 		transition-delay: 0;
 	}
 	.slice-1 {
 		top: 171px;
 		height: 50px;
-		background-image: url("/theme/sial_desktop/img/landing/slice-1.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/slice-1.png");
 		transition-delay: .1s;
 	}
 	.lemon-2 {
 		top: 221px;
 		height: 20px;
-		background-image: url("/theme/sial_desktop/img/landing/lemon-2.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/lemon-2.png");
 		transition-delay: .2s;
 	}
 	.slice-2 {
 		top: 238px;
 		height: 37px;
-		background-image: url("/theme/sial_desktop/img/landing/slice-2.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/slice-2.png");
 		transition-delay: .3s;
 	}
 	.slice-3 {
 		top: 275px;
 		height: 38px;
-		background-image: url("/theme/sial_desktop/img/landing/slice-3.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/slice-3.png");
 		transition-delay: .4s;
 	}
 	.lemon-3 {
 		top: 311px;
 		height: 45px;
-		background-image: url("/theme/sial_desktop/img/landing/lemon-3.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/lemon-3.png");
 		transition-delay: .5s;
 	}
 	.slice-4 {
 		top: 354px;
 		height: 51px;
-		background-image: url("/theme/sial_desktop/img/landing/slice-4.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/slice-4.png");
 		transition-delay: .6s;
 	}
 	.slice-5 {
 		top: 403px;
 		height: 45px;
-		background-image: url("/theme/sial_desktop/img/landing/slice-5.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/slice-5.png");
 		transition-delay: .8s;
 	}
 	.lemon-4 {
 		top: 448px;
 		height: 168px;
-		background-image: url("/theme/sial_desktop/img/landing/lemon-4.png");
+		background-image: url("/theme/sial_git_desktop/img/landing/lemon-4.png");
 		transition-delay: 1s;
 	}
 }
@@ -600,10 +600,10 @@ body.landing-page {
 		background-size: cover;
 	}
 	.no-svg .paris-city-bg {
-		background: transparent url(/theme/sial_desktop/img/landing/paris-city.png) 50% 0 no-repeat;
+		background: transparent url(/theme/sial_git_desktop/img/landing/paris-city.png) 50% 0 no-repeat;
 	}
 	.svg .paris-city-bg {
-		background: transparent url(/theme/sial_desktop/img/landing/paris-city.svg) 50% 0 no-repeat;
+		background: transparent url(/theme/sial_git_desktop/img/landing/paris-city.svg) 50% 0 no-repeat;
 	}
 }
 
@@ -664,7 +664,7 @@ body.landing-page {
 }
 @media (min-width: 639px) {
 	.slide-block-bg-groo {
-		background: #222 url(/theme/sial_desktop/img/landing/bg-groo.jpg) fixed 0 0 no-repeat;
+		background: #222 url(/theme/sial_git_desktop/img/landing/bg-groo.jpg) fixed 0 0 no-repeat;
 		background-size: cover;
 	}
 }
@@ -719,7 +719,7 @@ body.landing-page {
 	color: #000;
 }
 .slide-block-white.rad {
-	background-image: url(/theme/sial_desktop/img/landing/bg-rad.jpg);
+	background-image: url(/theme/sial_git_desktop/img/landing/bg-rad.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -809,7 +809,7 @@ body.landing-page {
 }
 @media (min-width: 639px) {
 	.slide-yellow {
-		background-image: url("/theme/sial_desktop/img/landing/minion.jpg");
+		background-image: url("/theme/sial_git_desktop/img/landing/minion.jpg");
 	}
 }
 #transition {
@@ -859,15 +859,15 @@ body.landing-page {
 	}
 	.icons-bg-1 {
 		z-index: 3;
-		background-image: url(/theme/sial_desktop/img/landing/pictos-bg-1.png);
+		background-image: url(/theme/sial_git_desktop/img/landing/pictos-bg-1.png);
 	}
 	.icons-bg-2 {
 		z-index: 2;
-		background-image: url(/theme/sial_desktop/img/landing/pictos-bg-2.png);	
+		background-image: url(/theme/sial_git_desktop/img/landing/pictos-bg-2.png);	
 	}
 	.icons-bg-3 {
 		z-index: 4;
-		background-image: url(/theme/sial_desktop/img/landing/pictos-bg-3.png);
+		background-image: url(/theme/sial_git_desktop/img/landing/pictos-bg-3.png);
 	}
 }
 
@@ -1053,7 +1053,7 @@ body.landing-page {
 		background: #fde626;
 	}
 	.no-lowbandwidth body {
-		background: #fde626 url('/theme/sial_desktop/img/landing/mobile-bg-minion.jpg') 0 0 no-repeat;
+		background: #fde626 url('/theme/sial_git_desktop/img/landing/mobile-bg-minion.jpg') 0 0 no-repeat;
 		background-size: contain;
 	}
 	
