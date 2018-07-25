@@ -164,3 +164,7 @@
 
 .linkid395271{float:right;}
 
+/* cacher ma sélection */
+.catalogue .catal-ex-item-buttons {
+    display: none;
+}
