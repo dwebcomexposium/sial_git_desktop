@@ -169,6 +169,6 @@
     display: none;
 }
 
-.compte {
-    display: none;
+#cxpmClientAccountWidget [class^="cap-icon-"] {
+    padding: 6px;
 }
