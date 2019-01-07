@@ -190,3 +190,7 @@
     width: 130px;
     display: none !important;}
 
+#zone2 .article-wrapper img {
+    max-width: initial;
+}
+
