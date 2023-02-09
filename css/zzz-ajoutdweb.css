@@ -197,3 +197,9 @@
 .content639781 .fl {
     float: none;
 }
+.home-quicklinks {
+    max-width: 70rem;
+}
+.home-quicklinks .ql-item{
+    width: 47.72727%;
+}
